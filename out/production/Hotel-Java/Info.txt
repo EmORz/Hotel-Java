@@ -1,0 +1,44 @@
+11. Хотел
+Да се напише компютърна програма, реализираща информационна система, обслужваща хотел. Програмата да поддържа текстов диалогов режим, позволяващ удобен интерактивен избор на следните операции:
+
+регистриране в стая (задава се номер на стая, начална и крайна дата и се въвежда коментар, например "семейство Симпсън”)
+списък на свободни стаи
+освобождаване на заета стая
+справка за използването на стаи в даден период (по начална и крайна дата се извежда списък, в който за всяка стая, използвана в дадения период, се извежда и броя на дните, в които е била използвана)
+намиране на подходяща (с необходимия брой легла) свободна стая по дадена начална и крайна дата
+задаване на допълнителни изисквания за стаи (бебешка кошарка, със/без закуска, с изглед към морето/планината/двора)
+
+Пример:
+Please select what you want to do (1 - Make a reservation; 2- List free rooms; 3 - Checkout room; 4 - Stats; 5 - Find a room; 6 - Update a room)
+<< 1
+Enter room number:
+<< 105
+Start date:
+<< 12.04.2021
+End date:
+<< 16.04.2021
+Enter notes:
+<< Petrovi
+Reservation was created!
+Please select what you want to do (1 - Make a reservation; 2- List free rooms; 3 - Checkout room; 4 - Stats; 5 - Find a room; 6 - Update a room)
+<< 4
+Start date:
+<< 10.03.2021
+End date:
+<< 15.0.3.2021
+101: 5 days
+102: 5 days
+103: 0 days
+104: 2 days
+105: 1 day
+Please select what you want to do (1 - Make a reservation; 2- List free rooms; 3 - Checkout room; 4 - Stats; 5 - Find a room; 6 - Update a room)
+<< 5
+Enter number of beds:
+<< 3
+Enter start date:
+<< 20.02.2021
+Enter end date:
+<< 23.02.2021
+Available rooms:
+102
+103
