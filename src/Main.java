@@ -157,8 +157,8 @@ public class Main {
         System.out.print("Enter notes: ");
         String notes = scanner.nextLine();
         room.setNotes(notes);
-
         System.out.println("Room " + roomNumber + " has been update.");
+
     }
 
     private static void makeReservation(Scanner scanner) {
