@@ -46,6 +46,8 @@ public class Main {
                 case 0:
                     System.out.println("Exit ...");
                     return;
+                default:
+                    System.out.println("There is no command with this code! ");
             }
         }
 
